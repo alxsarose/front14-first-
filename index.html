@@ -1,55 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Paw - Pet Shop & Care</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paw - Pet Shop & Care</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Happy Paw Logo">
-            <div class="logo-text">
-                <h1>HAPPY PAW</h1>
-                <p>PET SHOP & CARE</p>
-            </div>
-        </div>
-        <nav>
-            <a href="#">About Us</a>
-            <a href="#">Categories</a>
-            <a href="#">Best Sellers</a>
-            <a href="#">Our Shop</a>
-        </nav>
-        <div class="social-icons">
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
-        </div>
-    </header>
 
-    <main>
-<section class="hero">
-            <div class="hero-text">
-                <h2>Everything <br> Your Pet Needs</h2>
-                <p>Pet supplies, food, and products from the best manufacturers.</p>
-                <div class="buttons">
-                    <a href="#" class="btn orange">About us</a>
-                    <a href="#" class="btn outline">Categories →</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="dog.png" alt="Dog">
-                <div class="pet-products">
-                    <img src="bowl.png" alt="Pet food bowl">
-                    <img src="toys.png" alt="Pet toys">
-                </div>
-            </div>
-        </section>
+  <!-- Header -->
+  <header>
+    <div class="top-bar">
+      <span>Working Hours: 08 AM - 08 PM</span>
+      <span>Email: info@happypaw.com</span>
+      <span>Phone: +1 (234) 567 89 00</span>
+    </div>
 
-    </main>
-    <footer></footer>
-    
-    
+    <div class="nav-bar">
+      <div class="logo">
+        <h1>🐾 HAPPY PAW</h1>
+        <p>Pet Shop & Care</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+          <li><a href="#newarrivals">New Arrivals</a></li>
+          <li><a href="#shop">Our Shop</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Everything Your Pet Needs</h2>
+      <p>Pet supplies, food, and products from the best manufacturers.</p>
+      <a href="#about" class="btn orange">About Us</a>
+      <a href="#categories" class="btn outline">Categories</a>
+    </div>
+    <div class="hero-image">
+      <img src="dog.png" alt="Dog">
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="categories">
+    <h2>Any Products for Any Pets</h2>
+    <p>We offer products for cats, dogs, birds, fish, rabbits and many more!</p>
+    <div class="category-list">
+      <div class="category-item">Dogs</div>
+      <div class="category-item">Cats</div>
+      <div class="category-item">Birds</div>
+      <div class="category-item">Fish</div>
+      <div class="category-item">Small Animals</div>
+    </div>
+  </section>
+
+  <!-- Best Sellers -->
+  <section id="bestsellers" class="bestsellers">
+    <h2>Best Sellers</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="food1.png" alt="Dog Food">
+        <h3>Royal Canin</h3>
+        <p>$29.99</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="toy.png" alt="Pet Toy">
+        <h3>Chew Toy</h3>
+        <p>$9.99</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="accessory.png" alt="Pet Collar">
+        <h3>Stylish Collar</h3>
+        <p>$14.99</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Section -->
+  <section class="promo">
+    <h2>Get 10% Off for Cats & Dogs Stuff</h2>
+    <a href="#shop" class="btn">See Products</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>We Care About Your Pets And Their Well-Being</h2>
+    <p>
+      Happy Paw is an online store that offers goods for your pets: cats and dogs,
+      fish, rabbits, birds, and many other animals. Our mission is to provide the
+      highest quality products that ensure the health and happiness of your pets.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div>
+        <h3>Happy Paw</h3>
+        <p>Pet Shop & Care</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+          <li><a href="#shop">Our Shop</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Email: info@happypaw.com</p>
+        <p>Phone: +1 (234) 567 89 00</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Happy Paw. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
